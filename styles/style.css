@@ -1,0 +1,63 @@
+/* BASE STYLE */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@400;700&family=Roboto&display=swap');
+
+:root{
+    --header-font: 'Cormorant Upright', serif;
+    --text-font: 'Roboto', sans-serif;
+    --background: rgb(0, 0, 0);
+    --gold: rgb(166, 143, 103);
+    --darker-gold: #897551;
+}
+
+body {
+    background: var(--background);
+    color: var(--gold);
+}
+
+img{
+    display: block;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+button{
+    margin: 3rem auto;
+    display: block;
+    background: var(--gold);
+    border: none;
+    font-family: var(--text-font);
+    text-transform: uppercase;
+    padding: 1rem;
+}
+
+button:hover{
+    background: var(--darker-gold);
+    cursor: pointer;
+}
+
+/* TYPOGRAPHY */
+
+h1{
+    font-size: 3rem;
+    font-family: var(--header-font);
+}
+
+h2{
+    font-family: var(--darker-gold);
+    font-size: 4rem;
+    text-align: center;
+}
+
+p{
+    font-family: var(--text-font);
+    font-size: 1.5rem;
+    padding: 2rem 5rem;
+}
+
+
+/* HEADER  */
+
+.title{
+    text-align: center;
+    padding: 1rem;
+}
